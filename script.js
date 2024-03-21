@@ -22,8 +22,8 @@ function escolhaLivro() {
     if (livro.value === "") {
         imagem.src = "./imgAudioBook.jpg"
     } else {
-        audio.src = "/books/" + livro.value + "/1.mp3"
-        imagem.src = "/books/" + livro.value + "/img.jpg"
+        audio.src = "./books/" + livro.value + "/1.mp3"
+        imagem.src = "./books/" + livro.value + "/img.jpg"
     }
 }
 
@@ -44,7 +44,7 @@ function pauseAudio() {
 function proxCapitulo() {
     if (cap < livrosInfo[livro.value].totalCapitulos) {
         cap = cap + 1
-        audio.src = "/books/" + livro.value + "/" + cap + ".mp3"
+        audio.src = "./books/" + livro.value + "/" + cap + ".mp3"
         capitulo.innerHTML = "Capítulo " + cap
         playAudio()
     } else {
@@ -69,11 +69,11 @@ function proxCapitulo() {
 function antCapitulo() {
     cap = cap - 1
     if (cap <= 0) {
-        audio.src = "/books/" + livro.value + "/1.mp3"
+        audio.src = "./books/" + livro.value + "/1.mp3"
         capitulo.innerHTML = "Capítulo 1"
         playAudio()
     } else {
-        audio.src = "/books/" + livro.value + "/" + cap + ".mp3"
+        audio.src = "./books/" + livro.value + "/" + cap + ".mp3"
         capitulo.innerHTML = "Capítulo " + cap
         playAudio()
     }
