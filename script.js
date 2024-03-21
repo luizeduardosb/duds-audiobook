@@ -12,10 +12,10 @@ let estaTocando = 0
 let cap = 1
 
 const livrosInfo = {
-    'Alasombra Deunroble': { totalCapitulos: 12 },
-    'O alienista': { totalCapitulos: 9 },
-    'Dom Casmurro': { totalCapitulos: 10 },
-    'Amor por anexins': { totalCapitulos: 1 },
+    'alasombra-deunroble': { totalCapitulos: 12 },
+    'o-alienista': { totalCapitulos: 9 },
+    'dom-casmurro': { totalCapitulos: 10 },
+    'amor-por-anexins': { totalCapitulos: 1 },
 };
 
 function escolhaLivro() {
