@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'K2D';
+}
+
+h2 {
+    margin: 5vh 0 5vh 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 6vh;
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+img {
+    width: 30vh;
+    margin-bottom: 2vh;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.livros p {
+    margin-top: 5vh;
+    margin-bottom: 0;
+    font-size: 3vh;
+}
+
+.livros select {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    border: 0.2px solid gray;
+    border-radius: 5px;
+}
+
+.botoes i {
+    font-size: 7vh;
+    gap: 10vh;
+    cursor: pointer;
+}
+
+.botoes i:hover {
+    color: gray;
+}
+
+footer {
+    margin-top: 8vh;
+}
+
+footer i {
+    font-size: 3vh;
+    padding: 0 0.8vh;
+}
+
+@media (max-width: 845px) {
+    h2 {
+        margin-top: 3vh;
+        font-size: 4vh;
+    }
+
+    img {
+        width: 25vh;
+    }
+
+    footer {
+        margin-top: 5vh;
+    }
+}
