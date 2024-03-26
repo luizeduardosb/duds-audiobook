@@ -4,6 +4,8 @@ Este repositório contém o código-fonte de Dud's ÁudioBooks, uma aplicação 
 
 "Dud's ÁudioBooks" oferece uma experiência de audiolivros simples e acessível. Com uma interface intuitiva, os usuários podem selecionar entre uma variedade de livros e navegar facilmente entre os capítulos. Desenvolvido com HTML, CSS e JavaScript, o projeto proporciona uma forma conveniente de desfrutar de histórias, seja em casa ou em movimento.
 
+Teste você mesmo: https://luizeduardosb.github.io/duds-audiobook/
+
 ## Recursos
 
 - Escolha de audiolivros a partir de uma lista suspensa.
